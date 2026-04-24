@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/dg_ia_tv_title_analytics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ანალიტიკა"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/dg_ia_tv_income"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="შემოსავალი: -"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/dg_ia_tv_title_analytics"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/dg_ia_tv_expenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ხარჯები: -"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/dg_ia_tv_income"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/dg_ia_tv_savings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="დანაზოგი: -"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/dg_ia_tv_expenses"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.financeportfolio.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "com.example.financeportfolio.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.financeportfolio.app-debug-31:/layout_fragment_input.xml.flat",
+        "source": "com.example.financeportfolio.app-main-33:/layout/fragment_input.xml"
+    },
+    {
+        "merged": "com.example.financeportfolio.app-debug-31:/layout_fragment_profile.xml.flat",
+        "source": "com.example.financeportfolio.app-main-33:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.financeportfolio.app-debug-31:/layout_fragment_analytics.xml.flat",
+        "source": "com.example.financeportfolio.app-main-33:/layout/fragment_analytics.xml"
+    }
+]

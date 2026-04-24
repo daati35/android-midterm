@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+id dg_ia_btn_save
+id dg_ia_et_expenses
+id dg_ia_et_income
+id dg_ia_tab_layout
+id dg_ia_tv_birthdate
+id dg_ia_tv_expenses
+id dg_ia_tv_income
+id dg_ia_tv_k_info
+id dg_ia_tv_name
+id dg_ia_tv_savings
+id dg_ia_tv_title_analytics
+id dg_ia_tv_title_input
+id dg_ia_tv_title_profile
+id dg_ia_view_pager
+layout activity_main
+layout fragment_analytics
+layout fragment_input
+layout fragment_profile
+string app_name
